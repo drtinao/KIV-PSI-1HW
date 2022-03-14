@@ -54,7 +54,7 @@ Defaultní zpráva, jež je odeslána, pokud uživatel nevyplní jím požadovan
 
 5) Spuštění aplikace, návod k použití
 
-Ke spuštění je potřeba mít nainstalovanou Javu. Testování probíhalu na počítači s MS Windows 10 Pro, OpenJDK v11.0.12.
+Ke spuštění je potřeba mít nainstalovanou Javu. Testování probíhalo na počítači s MS Windows 10 Pro, OpenJDK v11.0.12.
 
 Pro vyzkoušení aplikace provedeme spuštění klientů na více strojích, které se nacházejí na stejném segmentu sítě. Spuštění klienta provedeme příkazem "java -jar multicast_client.jar".
 
