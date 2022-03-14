@@ -58,4 +58,4 @@ Ke spuštění je potřeba mít nainstalovanou Javu. Testování probíhalo na p
 
 Pro vyzkoušení aplikace provedeme spuštění klientů na více strojích, které se nacházejí na stejném segmentu sítě. Spuštění klienta provedeme příkazem "java -jar multicast_client.jar".
 
-Po spuštění klientů na libovolném stroji v rámci segmentu zapneme server a po vyzvání zadáme zprávu, jež chceme odeslat prostřednictvím multicastu. Případně stiskneme enter pro použití defaultní zprávy. Server byl vytvořen pouze pro účely testování a umožňuje pouze jednorázové odeslání zprávy - pro odeslání více zpráv je tedy nutné server pustit znovu. Klient běží do doby než obdrží slovo definové konstantou "STOP_MULTICAST_WORD".
+Po spuštění klientů na libovolném stroji v rámci segmentu zapneme server příkazem "java -jar multicast_server.jar" a po vyzvání zadáme zprávu, jež chceme odeslat prostřednictvím multicastu. Případně stiskneme enter pro použití defaultní zprávy. Server byl vytvořen pouze pro účely testování a umožňuje pouze jednorázové odeslání zprávy - pro odeslání více zpráv je tedy nutné server pustit znovu. Klient běží do doby než obdrží slovo definové konstantou "STOP_MULTICAST_WORD".
