@@ -10,7 +10,7 @@ Před programováním bylo zapotřebí zopakovat si principy multicastu v rámci
 
 2.a) IP adresa multicastu
 
-Multicastová adresa je v podstatě IP adresa, na kterou jsou zasílány serverem data, které mají obdržet klienti. Taková data pak může obdržet jakýkoliv uzel v síti, který se k jejich odběru v rámci sítě přihlásí. Příjemci dat jsou sdružováni v multicastových skupinách, ke kterým se uzel může v případě zájmu připojit či z nich odejít.
+Multicastová adresa je v podstatě IP adresa, na kterou jsou zasílány serverem data, která mají obdržet klienti. Taková data pak může obdržet jakýkoliv uzel v síti, který se k jejich odběru v rámci sítě přihlásí. Příjemci dat jsou sdružováni v multicastových skupinách, ke kterým se uzel může v případě zájmu připojit či z nich odejít.
 
 V IPv4 se multicastové IP adresy nachází v rozsahu 224.0.0.0 - 239.255.255.255.
 
