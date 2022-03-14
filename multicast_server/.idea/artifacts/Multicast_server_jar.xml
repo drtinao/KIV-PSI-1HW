@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Multicast server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Multicast_server_jar</output-path>
+    <root id="archive" name="Multicast server.jar">
+      <element id="module-output" name="Multicast server" />
+    </root>
+  </artifact>
+</component>

@@ -28,10 +28,10 @@ public class Logic {
     }
 
     /**
-     * Returns initialized InetAddress object, which will be used in order to multicast messages to network.
+     * Returns initialized InetAddress object, which will be used in order to receive messages multicasted to network.
      * @return initialized InetAddress object
      */
-    public InetAddress getGroupAddr(){
+    private InetAddress getGroupAddr(){
         try {
             return InetAddress.getByName(MULTICAST_ADDR);
         } catch (UnknownHostException e) {
@@ -75,7 +75,7 @@ public class Logic {
      * Used for joining multicast group.
      * @return initialized MulticastSocket object
      */
-    public MulticastSocket joinMulticastGroup(){
+    private MulticastSocket joinMulticastGroup(){
         try {
             MulticastSocket multiSock = new MulticastSocket(MULTICAST_PORT);
             multiSock.joinGroup(multiAddrInet);

@@ -26,7 +26,7 @@ public class Logic {
      * Returns initialized InetAddress object, which will be used in order to multicast messages to network.
      * @return initialized InetAddress object
      */
-    public InetAddress getGroupAddr(){
+    private InetAddress getGroupAddr(){
         try {
             return InetAddress.getByName(MULTICAST_ADDR);
         } catch (UnknownHostException e) {
