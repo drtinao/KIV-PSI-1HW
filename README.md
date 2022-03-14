@@ -20,7 +20,7 @@ Změna níže uvedených konstant, jež se nachází ve zdrojovém kódu klienta
 
 3.a) Změna multicast adresy
 
-Adresu multicastu je definována konstantou "MULTICAST_ADDR", jež se nachází ve třídě "Logic". Pro správnou funkčnost je samozřejmě nutné adresu změnit i na straně serveru a zároveň se držet v rozmezí multicastových adres.
+Adresa multicastu je definována konstantou "MULTICAST_ADDR", jež se nachází ve třídě "Logic". Pro správnou funkčnost je samozřejmě nutné adresu změnit i na straně serveru a zároveň se držet v rozmezí multicastových adres.
 
 3.b) Změna multicast portu
 
